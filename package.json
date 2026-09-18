@@ -4,8 +4,8 @@
   "description": "Production-grade multi-tenant backend for Jarvis Personal Assistant",
   "main": "dist/server.js",
   "scripts": {
-  "build": "tsc",
-  "start": "node dist/server.js || node dist/Src/server.js",
+  "build": "npx tsc",
+  "start": "node dist/server.js",
   "dev": "ts-node-dev --respawn --transpile-only Src/server.ts",
   "test": "jest"
 },
